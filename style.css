@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+body {
+  background-color: #f7e4d4;
+}
+
+body,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+
+  color: #467745;
+}
+
+/*--------FORM STYLE-------------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#form {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #467745;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media (max-width: 520px) {
+  h1 {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+
+/*------INPUT--------*/
+.inp-text {
+  display: block;
+  height: 64px;
+  width: 480px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #467745;
+  background-color: white;
+}
+input[type="text"] {
+  color: #467745;
+}
+@media (max-width: 520px) {
+  .inp {
+    max-width: calc(100% - 20px);
+  }
+}
+
+.inp {
+    background-color: white;
+    width: 480px;
+    padding: 20px 0px 0px 20px;
+    margin-bottom: 20px;
+}
+
+
+/*--------CHECK----------*/
+.check-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.check-container a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.inp-check {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 10px;
+}
+
+
+/*---------BUTTON-------*/
+.btn-send {
+  width: 280px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 100px;
+  background-color: #467745;
+  color: #f7e4d4;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-radius: 30px;
+}
+
+@media (max-width: 520px) {
+    .btn-send {
+      margin: 0 auto;
+    }
+  }
